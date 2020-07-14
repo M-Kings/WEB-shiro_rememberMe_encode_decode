@@ -54,6 +54,6 @@
     - 自动识别执行的命令内容 command
     - 解密结果
 
-![shiro rememberMe 在线加解密工具-1](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro-1.png)
+![shiro rememberMe 在线加解密工具-1](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro-1.jpg)
 
-![shiro rememberMe 在线加解密工具-2](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro-2.png)
+![shiro rememberMe 在线加解密工具-2](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro-2.jpg)
