@@ -21,12 +21,12 @@ ysoserial 特性|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|�
 功能|加密|解密
 ---|---|---
 输入（必填）|选择加密使用的 AES_key|要解密的内容
-|选择加密使用的 ysoserial_option|
-|要加密的命令内容 command|
+/|选择加密使用的 ysoserial_option|/
+/|要加密的命令内容 command|/
 输出|加密结果|自动识别使用的 AES_key
-||自动识别使用的 ysoserial_option
-||自动识别执行的命令内容 command
-||解密结果
+/|/|自动识别使用的 ysoserial_option
+/|/|自动识别执行的命令内容 command
+/|/|解密结果
 
 ![shiro rememberMe 在线加解密工具](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro.png)
 
