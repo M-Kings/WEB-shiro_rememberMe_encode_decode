@@ -8,11 +8,11 @@
 
 可以使用本工具：
 
-功能|shiro rememberMe encode 加密|shiro rememberMe decode 解密
+功能|加密|解密
 ---|---|---
-特性|支持 shiro 常见 100 key|支持 shiro 常见 100 key 遍历识别解密
-/|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
-/|/|支持执行命令内容识别
+AES key 特性|支持 shiro 常见 100 key|支持 shiro 常见 100 key 遍历识别解密
+ysoserial 特性|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
+其他|/|支持执行命令内容识别
 
 ## 使用方法
 
