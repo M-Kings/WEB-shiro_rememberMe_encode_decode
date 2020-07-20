@@ -11,14 +11,14 @@
 功能|shiro rememberMe encode 加密|shiro rememberMe decode 解密
 ---|---|---
 特性|支持 shiro 常见 100 key|支持 shiro 常见 100 key 遍历识别解密
-|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
-||支持执行命令内容识别
+ |支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
+| |支持执行命令内容识别
 
 ## 使用方法
 
 打开页面即可使用，所见即所得，应该不用多解释
 
-功能|shiro rememberMe encode 加密|shiro rememberMe decode 解密
+功能|加密|解密
 ---|---|---
 输入（必填）|选择加密使用的 AES_key|要解密的内容
 |选择加密使用的 ysoserial_option|
@@ -33,6 +33,7 @@
 ## 部署方法（前端页面）
 
 项目地址：https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode
+
 项目前端基于 Vue + ElementUI 实现
 
 ### 本地打开
