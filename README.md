@@ -8,15 +8,18 @@
 
 可以使用本工具：
 
+
 功能|加密|解密
 ---|---|---
 AES key 特性|支持 shiro 常见 100 key|支持 shiro 常见 100 key 遍历识别解密
 ysoserial 特性|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
 其他|/|支持执行命令内容识别
 
+
 ## 使用方法
 
 打开页面即可使用，所见即所得，应该不用多解释
+
 
 功能|加密|解密
 ---|---|---
@@ -27,6 +30,7 @@ ysoserial 特性|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|�
 /|/|自动识别使用的 ysoserial_option
 /|/|自动识别执行的命令内容 command
 /|/|解密结果
+
 
 ![shiro rememberMe 在线加解密工具](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro.png)
 
