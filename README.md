@@ -2,66 +2,29 @@
 
 ## 工具简述
 
-本项目为 shiro rememberMe 在线加解密工具（WEB）
+本项目为 shiro rememberMe 在线加解密工具
 
-在线体验地址：https://simolin.cn/tools/shiro
-
-可以使用本工具：
-
-
-功能|加密|解密
----|---|---
-AES key 特性|支持 shiro 常见 100 key|支持 shiro 常见 100 key 遍历识别解密
-ysoserial 特性|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10|支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别
-其他|/|支持执行命令内容识别
-
-
-## 使用方法
-
-打开页面即可使用，所见即所得，应该不用多解释
-
-
-功能|加密|解密
----|---|---
-输入（必填）|选择加密使用的 AES_key|要解密的内容
-/|选择加密使用的 ysoserial_option|/
-/|要加密的命令内容 command|/
-输出|加密结果|自动识别使用的 AES_key
-/|/|自动识别使用的 ysoserial_option
-/|/|自动识别执行的命令内容 command
-/|/|解密结果
-
+在线体验地址：https://simolin.cn/tools/shiro (已弃用，直接看关键代码吧)
 
 ![shiro rememberMe 在线加解密工具](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro.png)
 
-## 部署方法（前端页面）
+可以使用本工具：
 
-项目地址：https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode
+| 功能           | 加密                                                      | 解密                                                               |
+| -------------- | --------------------------------------------------------- | ------------------------------------------------------------------ |
+| AES key 特性   | 支持 shiro 常见 key                                       | 支持 shiro 常见 100 key 遍历识别解密                               |
+| ysoserial 特性 | 支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 | 支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别 |
+| 其他           | /                                                         | 支持执行命令内容识别                                               |
 
-项目前端基于 Vue + ElementUI 实现
+## 使用方法
 
-### 本地打开
+非常抱歉原本只给了前端源码(屁用没有)
 
-可本地打开直接使用
+现在把关键的加解密代码更新上来(其实也没啥用，就一个加解密和正则提取，随便看看吧)
 
-- 下载全部文件
-- 使用浏览器打开index.html页面即可使用
+## 附录 A shiro 常见 key
 
-### 部署到Web服务器
-
-可以部署到任何WEB服务器（前端页面纯静态，也可以放到github博客上）
-
-- 下载全部文件
-- 放入WEB目录
-- 使用浏览器直接访问index.html即可
-
-> 为方便使用及保证源码安全，本项目前后端分离，只需要部署前端静态页面即可使用
-
-> 后端已部署到VPS服务器上可通过前端直接调用API，目前暂不公开后端源码
-
-## 附录A shiro 常见100key
-
-> 有一些key可能有点问题不能使用，忽视即可
+> 有一些 key 可能有点问题不能使用，忽视即可
 
 ```
 kPH+bIxk5D2deZiIxcaaaA==(shiro默认key，最常见)
@@ -104,9 +67,7 @@ OY//C4rhfwNxCQAQCrQQ1Q==
 f/SY5TIve5WWzT4aQlABJA==
 bya2HkYo57u6fWh5theAWw==
 WuB+y2gcHRnY2Lg9+Aqmqg==
-kPv59vyqzj00x11LXJZTjJ2UHW48jzHN
 3qDVdLawoIr1xFd6ietnwg==
-ZWvohmPdUsAWT3=KpPqda
 YI1+nBV//m7ELrIyDHm6DQ==
 6Zm+6I2j5Y+R5aS+5ZOlAA==
 2A2V+RFLUs+eTA3Kpr+dag==
@@ -144,10 +105,8 @@ yNeUgSzL/CfiWw1GALg6Ag==
 NGk/3cQ6F5/UNPRh8LpMIg==
 4BvVhmFLUs0KTA3Kprsdag==
 MzVeSkYyWTI2OFVLZjRzZg==
-CrownKey==a12d/dakdad
 empodDEyMwAAAAAAAAAAAA==
 A7UzJgh1+EWj5oBFi+mSgw==
-YTM0NZomIzI2OTsmIzM0NTueYQ==
 c2hpcm9fYmF0aXMzMgAAAA==
 i45FVt72K2kLgvFrJtoZRw==
 U3BAbW5nQmxhZGUAAAAAAA==
