@@ -2,25 +2,25 @@
 
 ## 工具简述
 
-本项目为 shiro rememberMe 在线加解密工具
+非常抱歉以前只给了前端源码(所以没啥用)
 
-在线体验地址：https://simolin.cn/tools/shiro (已弃用，直接看关键代码吧)
-
-![shiro rememberMe 在线加解密工具](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro.png)
+现在把关键的加解密代码更新上来(其实也没啥用，就一个加解密和正则提取，随便看看吧)
 
 可以使用本工具：
 
 | 功能           | 加密                                                      | 解密                                                               |
 | -------------- | --------------------------------------------------------- | ------------------------------------------------------------------ |
-| AES key 特性   | 支持 shiro 常见 key                                       | 支持 shiro 常见 100 key 遍历识别解密                               |
+| AES key 特性   | 支持 shiro 常见 key                                       | 支持 shiro 常见 key 遍历识别解密                                   |
 | ysoserial 特性 | 支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 | 支持 ysoserial CommonsBeanutils1、CommonsCollections 1-10 遍历识别 |
 | 其他           | /                                                         | 支持执行命令内容识别                                               |
 
 ## 使用方法
 
-非常抱歉原本只给了前端源码(屁用没有)
+ysoserial.jar 去别的库下一个就行，命令行调用执行加解密即可，key 也可以自己增加
 
-现在把关键的加解密代码更新上来(其实也没啥用，就一个加解密和正则提取，随便看看吧)
+在线体验地址：https://simolin.cn/tools/shiro (已弃用，直接看关键代码吧)
+
+![shiro rememberMe 在线加解密工具](https://github.com/M-Kings/WEB-shiro_rememberMe_encode_decode/blob/master/webapp-shiro.png)
 
 ## 附录 A shiro 常见 key
 
